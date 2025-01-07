@@ -87,7 +87,7 @@
           </div>
 
           <div class="home__handle">
-            <img src="assets/img/perfil.jpg" alt="" class="home__img" />
+            <img src="assets/img/perfil.png" alt="" class="home__img"  />
           </div>
 
           <div class="home__social">
@@ -138,10 +138,11 @@
                 <span class="about__subtitle">9 + Projects</span>
               </div>
               <div class="about__box">
-                <i class="bx bx-support about__icon"></i>
-                <h3 class="about__title">Support</h3>
-                <span class="about__subtitle">Online 24/7</span>
+                <i class="bx bx-code-alt about__icon"></i> <!-- Updated icon -->
+                <h3 class="about__title">Developer</h3>
+                <span class="about__subtitle">Building solutions</span>
               </div>
+              
             </div>
 
             <p class="about__description">
@@ -173,7 +174,7 @@
                 <div class="skills__data">
                   <i class="bx bxs-badge-check"></i>
                   <div>
-                    <h3 class="skills__name">HTML</h3>
+                    <h3 class="skills__name">TypeScript</h3>
                     <span class="skills__level">Advanced</span>
                   </div>
                 </div>
@@ -181,8 +182,8 @@
                 <div class="skills__data">
                   <i class="bx bxs-badge-check"></i>
                   <div>
-                    <h3 class="skills__name">CSS</h3>
-                    <span class="skills__level">Advanced</span>
+                    <h3 class="skills__name">Astro</h3>
+                    <span class="skills__level">Intermediate</span>
                   </div>
                 </div>
 
@@ -200,8 +201,8 @@
                   <i class="bx bxs-badge-check"></i>
 
                   <div>
-                    <h3 class="skills__name">Bootstrap</h3>
-                    <span class="skills__level">Intermediate</span>
+                    <h3 class="skills__name">TailwindCSS</h3>
+                    <span class="skills__level">Advanced</span>
                   </div>
                 </div>
 
@@ -250,6 +251,7 @@
                     <span class="skills__level">Intermediate</span>
                   </div>
                 </div>
+
               </div>
               <div class="skills__group">
                 <div class="skills__data">
@@ -267,6 +269,13 @@
                     <span class="skills__level">Intermediate</span>
                   </div>
                 </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Flask</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -281,13 +290,26 @@
         <div class="work__filters">
           <span class="work__item active-work" data-filter="all">All</span>
           <span class="work__item" data-filter=".web">Web</span>
-          <span class="work__item" data-filter=".testing">Testing</span>
-          <span class="work__item" data-filter=".design">Design</span>
+          <span class="work__item" data-filter=".fullstack">Full Stack</span>
+          <span class="work__item" data-filter=".ml">Machine Learning</span>
         </div>
 
         <div class="work__container container grid">
+          <div class="work__card mix fullstacks ml">
+            <img src="assets/img/Xeno.png" alt="" class="work__img" />
+
+            <h3 class="work__title">Xeno</h3>
+
+            <a
+              href="https://xeno-documentation.vercel.app/"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
           <div class="work__card mix web">
-            <img src="assets/img/work1.png" alt="" class="work__img" />
+            <img src="assets/img/WeatherApp.png" alt="" class="work__img" />
 
             <h3 class="work__title">Weather App</h3>
 
@@ -299,13 +321,13 @@
             </a>
           </div>
 
-          <div class="work__card mix design">
-            <img src="assets/img/work2.png" alt="" class="work__img" />
+          <div class="work__card mix fullstack">
+            <img src="assets/img/Rentora.png" alt="" class="work__img" />
 
-            <h3 class="work__title">Admin Dashboard</h3>
+            <h3 class="work__title">Rentora</h3>
 
             <a
-              href="https://yelishgiri.github.io/admin-dashboard/"
+              href="https://rentora-xeno.my.canva.site/?fbclid=IwY2xjawHqfdBleHRuA2FlbQIxMAABHae_4NKOyMcGknzvEP72PppupEmv-omXkW29N-vrvvNTu9EPWlA1LQFc2Q_aem_MonZrmgAWUjwb11bYz3wKA"
               class="work__button"
             >
               Demo <i class="bx bx-right-arrow-alt work__icon"></i>
@@ -313,37 +335,11 @@
           </div>
 
           <div class="work__card mix web">
-            <img src="assets/img/work3.png" alt="" class="work__img" />
+            <img src="assets/img/CVApp.png" alt="" class="work__img" />
 
-            <h3 class="work__title">Lemonade Lush</h3>
+            <h3 class="work__title">CV Application</h3>
 
-            <a
-              href="https://yelishgiri.github.io/restaurant-page/"
-              class="work__button"
-            >
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-
-          <div class="work__card mix web">
-            <img src="assets/img/work4.png" alt="" class="work__img" />
-
-            <h3 class="work__title">LendIt</h3>
-
-            <a
-              href="https://github.com/yelishgiri/lend-it"
-              class="work__button"
-            >
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-
-          <div class="work__card mix web">
-            <img src="assets/img/work5.png" alt="" class="work__img" />
-
-            <h3 class="work__title">Library</h3>
-
-            <a href="#" class="work__button">
+            <a href="https://cv-application-omega-six.vercel.app/" class="work__button">
               Demo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
@@ -384,30 +380,21 @@
                   <i class="bx bx-right-arrow-alt contact__button-icon"></i
                 ></a>
               </div>
-              <div class="contact__card">
-                <i class="bx bxs-phone"></i>
-                <h3 class="contact__card-title">Phone Number</h3>
-                <span class="contact__card-data">000-000-000</span>
-
-                <a
-                  href="tel:601-307-2807"
-                  target="_blank"
-                  class="contact__button"
-                  >Write Me
-                  <i class="bx bx-right-arrow-alt contact__button-icon"></i
-                ></a>
-              </div>
             </div>
           </div>
           <div class="contact__content">
             <h3 class="contact__title">Write Me Your Messages</h3>
-            <form action="" class="contact__form">
+            
+            <form action="" class="contact__form"  action="https://getform.io/f/ajjjwgoa"
+            method="POST">
+
               <div class="contact__form-div">
                 <label for="" class="contact__form-tag">Name</label>
                 <input
                   type="text"
                   placeholder="Insert your name"
                   class="contact__form-input"
+                  name="name"
                 />
               </div>
 
@@ -417,6 +404,7 @@
                   type="email"
                   placeholder="Insert your email"
                   class="contact__form-input"
+                  name="email"
                 />
               </div>
 
@@ -428,11 +416,12 @@
                   cols="30"
                   rows="10"
                   placeholder="Write your message"
-                  class="contact__form-input"
+                  class="contact__form-input" 
+                  name="message"
                 ></textarea>
               </div>
 
-              <button class="button">Send Message</button>
+              <button class="button" type="submit">Send Message</button>
             </form>
           </div>
         </div>
@@ -444,8 +433,11 @@
       <div class="footer__container container">
         <h1 class="footer__title">Yelish Giri</h1>
         <ul class="footer__list">
+          <li><a href="#home" class="footer__link">Home</a></li>
+          <li><a href="#skills" class="footer__link">Skills</a></li>
           <li><a href="#about" class="footer__link">About</a></li>
           <li><a href="#work" class="footer__link">Projects</a></li>
+          <li></li>
         </ul>
 
         <ul class="footer__social">
